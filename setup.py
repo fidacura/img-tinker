@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'img-tinker=scripts.run_processor:main',
+            'img-tinker=scripts.process_images:main',
         ],
     },
     install_requires=[
